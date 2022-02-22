@@ -1,0 +1,18 @@
+[package]
+name = "bmp180-nostd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ivan Palijan"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Platform agnostic driver for Bosch BMP180 sensors built using the embedded-hal"
+keywords = ["embedded-hal"]
+license = "MIT OR Apache-2.0 OR BSD"
+repository = "https://github.com/ivan95603/"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = { version = "1.4.3", default-features = false }
+embedded-hal = "0.2.7"
+# i2csensors = "*"
