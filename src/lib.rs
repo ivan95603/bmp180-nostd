@@ -6,8 +6,7 @@
 // option.  This file may not be copied, modified, or distributed
 // except according to those terms.
 
-// This module is implementing userland library to interact with
-// Bosh BMP180 i2c temperature and pressure sensor.
+// This is the no-std, embedded-hal library for the Bosh BMP180 i2c temperature and pressure sensor.
 
 //! A platform agnostic driver to interface with the BMP180 (Pressure sensor)
 //!
